@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "employee": "John Smith",
+        "gender": "M",
+        "age": 30,
+        "job": "Project Manager"
+    },
+    {
+        "id": 2,
+        "employee": "Jane Doe",
+        "gender": "F",
+        "age": 28,
+        "job": "Software Engineer"
+    },
+    {
+        "id": 3,
+        "employee": "Larry Lobster",
+        "gender": "M",
+        "age": 25,
+        "job": "Software Engineer"
+    },
+    {
+        "id": 4,
+        "employee": "Mary Sue",
+        "gender": "F",
+        "age": 35,
+        "job": "Database Admin"
+    },
+    {
+        "id": 5,
+        "employee": "Hector Cortez",
+        "gender": "M",
+        "age": 41,
+        "job": "Software Engineer"
+    },
+    {
+        "id": 6,
+        "employee": "Linda Johnson",
+        "gender": "F",
+        "age": 34,
+        "job": "Team Lead"
+    },
+    {
+        "id": 7,
+        "employee": "Jerry Costanza",
+        "gender": "M",
+        "age": 29,
+        "job": "Software Engineer"
+    },
+    {
+        "id": 8,
+        "employee": "Patrice Shapiro",
+        "gender": "F",
+        "age": 20,
+        "job": "Intern"
+    },
+    {
+        "id": 9,
+        "employee": "Dan Gordon",
+        "gender": "M",
+        "age": 20,
+        "job": "Intern"
+    }
+]

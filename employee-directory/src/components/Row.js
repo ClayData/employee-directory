@@ -1,9 +1,12 @@
 import React from 'react';
 
-function Row() {
+function Row(props) {
     return (
         <tr>
-            <td></td>
+            <td>{props.employee}</td>
+            <td>{props.gender}</td>
+            <td>{props.age}</td>
+            <td>{props.job}</td>
         </tr>
     )
 }
