@@ -1,16 +1,18 @@
 import React from 'react';
 import Row from './Row';
-import data from './employees.json'
+
 
 function Table (props){    
         return(
             <table>
-                <tr>
+                <thead>
+                    <tr>
                     <th>Employee</th>
                     <th>Gender</th>
                     <th>Age</th>
                     <th>Job</th>
-                </tr>
+                    </tr>
+                </thead>
                 {props.rows.map((row) => (
                     <Row 
                     employee={row.employee}
