@@ -34,15 +34,24 @@ class App extends React.Component {
 
     return (
     <div className="conatainer">
+
+      <div className="row">
+        <div className="col">
       <h1 className="text-center">Employee Directory</h1>
+      </div>
+      </div>
+
       
-    <SearchBox 
-    handleChange={this.handleChange}
-    handleInputChange={this.handleInputChange}
-    />
-    <Table 
-    rows={filteredRows}
-    />
+          <SearchBox 
+          handleChange={this.handleChange}
+          handleInputChange={this.handleInputChange}
+          />
+         
+      
+        <Table 
+        rows={filteredRows}
+        />
+        
     </div>
   )}
 }
