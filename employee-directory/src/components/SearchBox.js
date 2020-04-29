@@ -1,11 +1,12 @@
 import React from 'react';
+import row from './employees.json';
 
 function SearchBox (props) {
         return(
     <div>
         <form>
     <select className="form-control"
-            value={props.value} onChange={props.handleChange}>
+            value={props.value} onChange={props.handleInputChange}>
             <option value="job">Job</option>
             <option value="employee">Employee</option>
             <option value="gender">Gender</option>
