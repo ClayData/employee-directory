@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "./components/Table";
 import SearchBox from "./components/SearchBox";
-import rows from './components/employees.json';
+import rows from './components/employees.json'
 
 class App extends React.Component {
 
@@ -22,9 +22,10 @@ class App extends React.Component {
 
   handleChange = e => {
     e.preventDefault();
-    this.setState({ searchField: e.target.value})
-                    
+    this.setState({ searchField: e.target.value})                 
   }
+
+  
 
   render(){  
 
